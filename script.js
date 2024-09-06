@@ -100,7 +100,7 @@ const messages = {
 
 // Funzione per creare il calendario
 function createCalendar() {
-    const oggi = new Date('2024-09-09');
+    const oggi = new Date();
 
     Object.keys(messages).forEach((dateString, index) => {
         const cell = document.createElement('div');
