@@ -1,7 +1,7 @@
 // Dati del calendario, con le date e i messaggi di amore
 const messages = {
     "9 settembre 2024": "Amore, anche se questi 3 mesi ci terranno lontani, voglio che tu sappia che ti amo tantissimo. Mi mancherai ogni giorno, ma ti auguro solo il meglio da questa esperienza. Sarò sempre con te, anche da lontano..",
-    "10 settembre 2024": "Morcitino, so che questa prima notte lontana da casa non è facile, ma sono sicuro che la tua forza ti guiderà in questa nuova avventura. Sono con te, anche a distanza, e so che ce la farai alla grande. Sei più forte di quanto pensi. Ti amo.",
+    "10 settembre 2024": "Morcitino, so che questa prima notte lontana da casa non è facile, ma sono sicuro che la tua forza ti guiderà in questa nuova avventura. Sono con te, anche a distanza, e so che ce la farai alla grande. Sei più forte di quanto pensi. Ti amo",
     "11 settembre 2024": "Sappi che sono con te, anche da lontano. Il nostro legame è più forte di qualsiasi distanza.",
     "12 settembre 2024": "Sappi che sono con te, anche da lontano. Il nostro legame è più forte di qualsiasi distanza.",
     "13 settembre 2024": "Il tuo sorriso è la mia forza. Lo immagino sempre per affrontare ogni giornata.",
