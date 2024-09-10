@@ -2,7 +2,7 @@
 const messages = {
     "9 settembre 2024": "Amore, anche se questi 3 mesi ci terranno lontani, voglio che tu sappia che ti amo tantissimo. Mi mancherai ogni giorno, ma ti auguro solo il meglio da questa esperienza. Sarò sempre con te, anche da lontano..",
     "10 settembre 2024": "Morcitino, so che questa prima notte lontana da casa non è facile, ma sono sicuro che la tua forza ti guiderà in questa nuova avventura. Sono con te, anche a distanza, e so che ce la farai alla grande. Sei più forte di quanto pensi. Ti amo",
-    "11 settembre 2024": `<br>La nostra prima canzone che abbiamo cantato: <a href="https://open.spotify.com/track/7LSBkEm5LQSkhe6yqqqBPs?si=cxnPYbW_SEe8wMVbYk3CDg" target="_blank">ascoltala qui</a>.`,
+    "11 settembre 2024": `La nostra prima canzone che abbiamo cantato: <a href="https://open.spotify.com/track/7LSBkEm5LQSkhe6yqqqBPs?si=cxnPYbW_SEe8wMVbYk3CDg" target="_blank">ascoltala qui</a>.`,
     "12 settembre 2024": "Sappi che sono con te, anche da lontano. Il nostro legame è più forte di qualsiasi distanza.",
     "13 settembre 2024": "Il tuo sorriso è la mia forza. Lo immagino sempre per affrontare ogni giornata.",
     "14 settembre 2024": "Conto i giorni che ci separano, ma conto ancora di più le emozioni che provo per te.",
@@ -100,7 +100,7 @@ const messages = {
 
 // Funzione per creare il calendario
 function createCalendar() {
-    const oggi = new Date("2024-09-11");
+    const oggi = new Date();
 
     Object.keys(messages).forEach((dateString, index) => {
         const cell = document.createElement('div');
